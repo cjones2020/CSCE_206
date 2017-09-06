@@ -1,0 +1,11 @@
+*[S12]
+* In order to printf() we need to use standard header stdio.h
+* "int inches, feet, fathoms" declares these variables to be integers. All variables must be declared and declarations end with ";".
+
+*[S13]
+
+*[S14]
+
+*[S15]
+
+*[S16]

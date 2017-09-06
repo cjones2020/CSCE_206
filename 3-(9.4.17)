@@ -1,0 +1,36 @@
+/* 9-4-17
+ * Chapter 1: Writing a Program in ANSI C
+ 
+ * [S1]
+ * Basic Terms
+ * Programs: instruct machines to carry out tasks/solve problems
+ * Algorithm: step-by-step process to complete task
+ * Computer: processor + memory + input/ouput
+ * (Processor carries out instructions in memory)
+ 
+ * [WS]
+ * A = B + C; Computer cannot understand, only binary. Assembly code converts C to binary (after compile)
+ * load   R1, A           ------->      0011 0001
+ * load   R2, B           ASSEMBLY      0011 0010
+ * add    R3, R1, R2      LANGUAGE      1011 0011 0001 0010
+ * store  R3, A           ------->      0010
+ * ROM: Read Only Memory; hold BIOS which instruct processor. Tells computer to run MacOS, Windows, Linux, etc. When you first turn on computer.
+ 
+ * [S2]
+ * Basic Terms
+ * Operating system
+ *    OS oversees and cooridantes the resources of the machines
+ *    OS provieds tools for users
+ * C is called source code. File with source code is source file.
+ 
+ * [WS]
+ * DO NOT USE MS WORD TO WRITE C (Not just text. Binary beyond just text. Use simple Text Editor)
+ 
+ * [S3]
+ * Dissection of hello.c
+ * /* ... */ is a comment line (ignore everything in between)
+ * # is preprocessing directive. #include gets copy of standard header stdio.h
+ * <> has it find "in the usual place." used for info on printf()
+ 
+ * [WS]
+ * Directories ~ Files (/usr/bin/home) ~ (C:Programs > My Docs > Downloads)

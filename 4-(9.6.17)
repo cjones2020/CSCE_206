@@ -1,5 +1,75 @@
 /*9-6-2017
 
-*
+*[Lab notes]
+* linux.cs.tamu.edu is automatically linux 2. Has own folder.
+* "ls", "ls -al", and "pwd" commands that allow you to NOT map network drive
 
+*[S5]
+* {: begins the body of the function. }: ends the function. Also group statements.
+* printf(): function that prints to screen.
+* "Hello, world\n": string constant. \n indicates a newline
+*[WS]
+* 'A' = charcter
+* "A" = string
 
+*[S6]
+* All decleartions and statements in C end with a ;
+* return 0: 0 is returbed to the main(). Tells the OS it was successful
+*[WS]
+* Natural (N): 0, 1, 2, ...
+* Integers (Z): ..., -2, -1, 0, 1, 2, ...
+* Rational (Q): m/n (m, n = Z ; n ≠ 0)
+* Real (R): π, √2
+* Complex (C): a + bi (a, b, = R)
+* Hypercomplex: ai + bj + ck + d
+* Because there are only 32 bits, we cannot store anything beyond rational numbers
+
+*[S7]
+# include <stdio.h>
+
+int main(void)
+{
+    printf("Hello, \n")
+    printf("world!\n")
+    return 0;
+}
+* Looks different but the same!
+
+*[S8]
+# include <stdio.h>
+
+int main(void)
+{
+    printf("Hello, world\n")
+    printf("Hello, universe!\n")
+    retunr 0;
+}
+* printf("Hello, world\nHello, universe\n") also works instead of printf("...\n") printf("...\n")
+
+*[S9]
+* Variables store values
+* Different types of variables by but must be specified (intger, float, string, etc.)
+
+*[S10]
+* Algorithm for Hesperus
+*   Assign # of fathoms to variable
+*   Convert fathoms to feet and store in variable
+*   Convert feet to inches and store in variable
+*   Print different units of measure neatly to screen
+
+*[S11]
+include <stdio.h>
+
+int main(void)
+{
+    int inches, feet, fathoms
+    
+    fathoms = 7;
+    feet = 6 * fathoms;
+    inches = 12 * feet;
+    printf("%d fathoms\n", fathoms);
+    printf("%d feet\n", feet);
+    printf("%d inches\n", inches);
+    return 0
+}
+* "int inches, feet, fathoms" can be seperated for each one. Used with different variable types or if variable name is too long.
